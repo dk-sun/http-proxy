@@ -3,4 +3,4 @@
     var port = process.env.PORT|| 63342;
 
 2. 设置要代理的到的地址
-   proxy.setProxy(app,'/api/weather','http://op.juhe.cn/onebox/weather/query');
+   proxy.setProxy(app,'/','http://192.168.100.90/api');
